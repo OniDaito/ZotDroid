@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#77777a</color>
+    <color name="colorAccent">#d76c91</color>
+    <color name="colorLight">#f0f0f0</color>
+    <!-- for the printview left-hand drawer -->
+
+    <color name="text_black">#010101</color>
+    <color name="text_gray">#808080</color>
+</resources>

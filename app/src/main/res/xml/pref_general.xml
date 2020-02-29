@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:defaultValue="@string/preferences_autofill"
+        android:key="settings_username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="User Name" />
+    <ListPreference
+        android:defaultValue="medium"
+        android:entries="@array/font_size_preference"
+        android:entryValues="@array/font_size_preference_values"
+        android:key="settings_font_size"
+        android:title="Font Size" />
+    <EditTextPreference
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Downloads Location"
+        android:key="settings_download_location" />
+    <EditTextPreference
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Database Location"
+        android:key="settings_db_location" />
+    <EditTextPreference
+        android:defaultValue="@string/preferences_autofill"
+        android:editable="false"
+        android:key="settings_user_secret"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textColorHint="@color/colorLight"
+        android:title="User Secret"
+        tools:clickable="false" />
+    <EditTextPreference
+        android:defaultValue="@string/preferences_autofill"
+        android:editable="false"
+        android:key="settings_user_key"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textColorHint="@color/colorLight"
+        android:title="User Key"
+        tools:clickable="false" />
+    <EditTextPreference
+        android:defaultValue="@string/preferences_autofill"
+        android:editable="false"
+        android:key="settings_user_id"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textColorHint="@color/colorLight"
+        android:title="User ID"
+        tools:clickable="false" />
+
+    <Preference android:title="Reset and Sync"
+        android:key="@string/reset_and_sync"
+        android:summary="Reset the library and sync with Zotero"/>
+
+</PreferenceScreen>

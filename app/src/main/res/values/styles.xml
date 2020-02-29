@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ZotDroidAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#FFC107</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Used for the background -->
+        <item name="android:background">#4CAF50</item>
+    </style>
+
+    <style name="MainList" parent="AppTheme">
+    </style>
+
+    <style name="DrawerList" parent="AppTheme">
+    </style>
+
+    <style name="TreeNodeStyle">
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <!-- Font styles for our different areas -->
+    <style name="MainList.Title">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="MainList.Title.Small">
+        <item name="android:textSize">8dp</item>
+    </style>
+
+    <style name="MainList.Title.Medium">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="MainList.Title.Large">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="DrawerList.Title">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DrawerList.Title.Small">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="DrawerList.Title.Medium">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="DrawerList.Title.Large">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="MainList.SubText">
+        <item name="android:textColor">#6c7d83</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="MainList.SubText.Small">
+        <item name="android:textSize">6dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="MainList.SubText.Medium">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="MainList.SubText.Large">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="SideList">
+        <item name="android:textColor">#444422</item>
+    </style>
+
+    <style name="SideList.Small">
+        <item name="android:textSize">8dp</item>
+    </style>
+
+    <style name="SideList.Medium">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="SideList.Large">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <!-- new folder lefthand tree -->
+
+    <style name="TreeNodeStyleCustom">
+        <item name="android:paddingLeft">20dp</item>
+        <!--<item name="android:showDividers">middle</item>-->
+        <!--<item name="android:divider">@android:drawable/divider_horizontal_bright</item>-->
+    </style>
+
+</resources>

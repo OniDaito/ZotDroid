@@ -1,0 +1,20 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="computer.benjamin.zotdr0id.ux.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="computer.benjamin.zotdr0id.ux.SettingsActivity$WebDavDownPreferenceFragment"
+        android:icon="@drawable/ic_menu_share"
+        android:title="WebDav" />
+
+    <header
+        android:fragment="computer.benjamin.zotdr0id.ux.SettingsActivity$ExperimentalPreferenceFragment"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Experimental" />
+
+</preference-headers>

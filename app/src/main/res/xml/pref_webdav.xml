@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="settings_use_webdav_storage"
+        android:title="Use Personal WebDav Storage" />
+    <EditTextPreference
+        android:defaultValue="username"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="WebDav Username"
+        android:key="settings_webdav_username"
+        android:selectable="true" />
+    <EditTextPreference
+        android:defaultValue="password"
+        android:inputType="textPassword"
+        android:key="settings_webdav_password"
+        android:singleLine="true"
+        android:title="Webdav Password" />
+    <EditTextPreference
+        android:defaultValue="https://"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="WebDav Server Address"
+        android:key="settings_webdav_address"
+        android:autoText="false"
+        android:selectable="true" />
+
+    <Preference android:title="Test Webdav Settings"
+        android:key="@string/test_webdav_settings"
+        android:summary="Testing the WebDav settings"/>
+
+</PreferenceScreen>

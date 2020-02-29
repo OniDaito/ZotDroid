@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="@string/main_menu_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_download_all"
+        android:orderInCategory="102"
+        android:title="@string/main_menu_download_all"
+        app:showAsAction="never" />
+
+    </group>
+
+    <group>
+        <item android:title="@string/main_menu_order_basic"
+            android:id="@+id/action_order_basic"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:visible="true"
+            android:orderInCategory="200"
+            android:checkable="false"
+            android:enabled="true" />
+        <item
+            android:id="@+id/action_order_title"
+            android:checkable="false"
+            android:enabled="true"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:orderInCategory="201"
+            android:title="@string/main_menu_order_title"
+            android:visible="true" />
+
+        <item android:title="@string/main_menu_order_author"
+            android:id="@+id/action_order_author"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:visible="true"
+            android:orderInCategory="202"
+            android:checkable="false"
+            android:enabled="true" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/action_show_help"
+            android:checkable="false"
+            android:enabled="true"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:orderInCategory="301"
+            android:title="@string/main_menu_help"
+            android:visible="true" />
+
+        <item android:title="@string/main_menu_about"
+            android:id="@+id/action_show_about"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:visible="true"
+            android:orderInCategory="302"
+            android:checkable="false"
+            android:enabled="true" />
+    </group>
+
+</menu>
